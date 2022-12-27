@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elohim Pictures</title>
+</head>
+<body>
+    <header>
+       <div class="header">
+        <img id="logo" src="" alt="Elohim pictures logo">
+        <h2>You don't take a picture, <br>You make it!</h2>
+        <nav>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li id="dropdown" ><a href="#">SERVICES</a>
+                    <ul>
+                        <li><a href="wallpaperPhotos.html">WALLPAPER PHOTOS</a></li>
+                        <li><a href="photoTips.html">PHOTO TIPS</a></li>
+                        <li><a href="photoCompetition.html">PHOTO COMPETITON</a></li>
+                    </ul>
+                </li>
+                <li><a href="gallery.html">GALLERY</a></li>
+            </ul>
+        </nav>
+       </div>
+    </header>
+
+    <div class="section1">
+        <h2>Register here for photography competition</h2>
+        <form>
+            <label for="Fullname">Full Name</label>
+            <input type="text" name="Fullname" id="Fullname" placeholder="Full Name" required><br><br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Email" required><br><br>
+            <label for="Description">Description</label>
+            <textarea name="Description" id="Description" cols="30" rows="10" placeholder="Description"></textarea><br><br>
+        </form>
+        <form action="/upload" method="post" class="dragdrop">
+            <span class="inner">Drag and drop image here or <span class="select">Browse</span> </span>
+            <input type="file" name="file" class="file" multiple placeholder=">Drag and drop image here">
+        </form>
+        <button type="submit">Submit</button>
+    </div>
+
+    <div class="section2">
+        <h2>The last five (5) winners of the competition</h2>
+        <table  class="table">
+            <tr>
+                <th>No.</th>
+                <th>Full Name</th>
+                <th>Country</th>
+                <th>Phone No.</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Eyosiyas Alemu</td>
+                <td>Ethiopia</td>
+                <td>0978541535</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Fenet Tola</td>
+                <td>Ethiopia</td>
+                <td>0945871236</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Abrham Desalegn</td>
+                <td>Ethiopia</td>
+                <td>0921458796</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Kurabachew Melkamu</td>
+                <td>Ethiopia</td>
+                <td>0973168745</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Lulit Fikadu</td>
+                <td>Ethiopia</td>
+                <td>0913892299</td>
+            </tr>
+
+        </table>
+    </div>
+
+    <footer>
+        <div class="text">
+            <h2 class="here-we">HERE WE ARE</h2>
+            <p class="comment">Do you feel like a "wannabe" photographer?</p>
+            <p class="comment">Start shooting now!</p>
+            <p class="comment">Make easy step-by-step courses that teach you how to become a great photographer in less time.</p>
+        </div>
+        <div class="follow">
+            <h2 class="follow-us">Follow Us</h2>
+            <a href="https://www.facebook.com/sena.teferi.73"><img id="facebook" src="images/facebook.png" alt="Facebook Logo"></a>
+            <a href="https://t.me/elohim_picture"><img id="telegram" src="images/telegram.png" alt="Telegram Logo"></a>
+            <a href="http://instagram.com/reb.ira?utm_source=qr"><img id="instagram" src="images/instagram.png" alt="Instagram Logo"></a>
+            <a href="http://tiktok.com/@jobinnn0"><img id="tiktok" src="images/tiktok.png" alt="Twitter Logo"></a>
+        </div>
+        <div class="contact">
+            <h2 class="contact-us">Contact Us</h2>
+            <p class="contact-option">+251973161222</p>
+            <p class="contact-option">+251921129093</p>
+            <p class="contact-option">senateferi4@gmail.com</p>
+            <p class="contact-option">rebiratibebu@gmail.com</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
